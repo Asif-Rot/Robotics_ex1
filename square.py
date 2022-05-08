@@ -35,8 +35,8 @@ def loop(drone: Drone):
             time.sleep(0.3)
             lidarsData = drone.get_lidars()
 
-        if battery < 50:
-            drone.land(True)
+#         if battery < 50:
+#             drone.land(True)
 
         time.sleep(0.1)
 
